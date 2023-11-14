@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: gilroy;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#card{
+    height: 30vw;
+    width: 40vw;
+    border-radius:20px;
+    background-color: darkcyan;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#side_box{
+    height: 4vw;
+    width: 15vw;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.8vw;
+    font-weight: 100;
+    cursor: pointer;
+}
+#buttons{
+    height: 8vw;
+    width: 30vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#start{
+    font-size: 1.3vw;
+    font-weight: 900;
+    padding: 1.8vh 2vw;
+    border: none;
+    border-radius: 10px;
+    background-color: darkred;
+    color: white;
+    cursor: pointer;
+}
+
+#start:active{
+    scale: 0.9;
+}
+#stop{
+    font-size: 1.3vw;
+    font-weight: 900;
+    padding: 1.8vh 2vw;
+    border: none;
+    border-radius: 10px;
+    background-color: darkgreen;
+    color: white;
+    cursor: pointer;
+}
+#stop:active{
+    scale:0.9;
+}
+#stop{
+    font-size: 1.3vw;
+    font-weight: 900;
+    padding: 1.8vh 2vw;
+    border: none;
+    border-radius: 10px;
+    background-color: darkgreen;
+    color: white;
+    cursor: pointer;
+}
+#stop:active{
+    scale:0.9;
+}
